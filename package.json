@@ -22,6 +22,9 @@
     "webpack-dev-server": "^4.15.0"
   },
   "release": {
+    "branches": [
+      "master"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
